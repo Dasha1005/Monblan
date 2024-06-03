@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monblanproject</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo-link"><img src="images/logo.svg" alt="Monblanproject" class="logo"></a>
+                <div class="header__items">
+                    <div class="header__item header__item-1">
+                        <h1 class="header__title">monblanproject</h1>
+                        <p class="header__text">Start on 17-02-2016</p>
+                    </div>
+                    <div class="header__item header__item-2">
+                        <p class="header__statistics header__statistics-1"><span class="header__statistics-bold">870</span> posts</p>
+                        <p class="header__statistics header__statistics-2"><span class="header__statistics-bold">11,787</span> followers</p>
+                        <p class="header__statistics header__statistics-3"><span class="header__statistics-bold">112</span> following</p>
+                    </div>
+                    <form action="" class="header__item header__form">
+                        <label class="header__label" for="input-date-1">Date</label>
+                        <div class="header__form-container header__form-container-1">
+                            <input type="text" id="input-date-1" class="datepicker header__input-from" placeholder="from">
+                            <button class="clear-btn">&times;</button>
+                            <button class="calendar-btn"><img src="images/caalendar-icon.svg" alt=""></button>
+                        </div>
+                        <div class="header__form-container header__form-container-2">
+                            <input type="text" id="input-date-2" class="datepicker header__input-to" placeholder="to">
+                            <button class="clear-btn">&times;</button>
+                            <button class="calendar-btn"><img src="images/caalendar-icon.svg" alt=""></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="posts">
+            <div class="container">
+                <div class="posts__toggle">
+                    <button class="posts__rows posts__toggle-btn">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="6" height="6" fill="#C8C8C8"/>
+                            <rect x="8" width="6" height="6" fill="#C8C8C8"/>
+                            <rect x="16" width="6" height="6" fill="#C8C8C8"/>
+                            <rect y="8" width="6" height="6" fill="#C8C8C8"/>
+                            <rect y="16" width="6" height="6" fill="#C8C8C8"/>
+                            <rect x="8" y="8" width="6" height="6" fill="#C8C8C8"/>
+                            <rect x="8" y="16" width="6" height="6" fill="#C8C8C8"/>
+                            <rect x="16" y="8" width="6" height="6" fill="#C8C8C8"/>
+                            <rect x="16" y="16" width="6" height="6" fill="#C8C8C8"/>
+                            </svg>
+                    </button>
+                    <button class="posts__list posts__toggle-btn">
+                        <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="6" height="6" fill="#C8C7C7"/>
+                            <rect y="8" width="6" height="6" fill="#C8C7C7"/>
+                            <rect y="16" width="6" height="6" fill="#C8C7C7"/>
+                            <rect x="9" y="10" width="15" height="2" fill="#C8C7C7"/>
+                            <rect x="9" y="18" width="15" height="2" fill="#C8C7C7"/>
+                            <rect x="9" y="2" width="15" height="2" fill="#C8C7C7"/>
+                            </svg>
+                            
+                    </button>
+                </div>
+                <div class="posts__items">
+                    <div class="posts__item">
+                        <img src="images/posts-img-1.jpg" alt="" class="posts__item-img">
+                        
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Today</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">128</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">31</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">9-08-2016</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">67</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">22</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Image upload</p>
+                            <div class="posts__item-wrap">
+                            <p class="posts__item-text">11-04-2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posts__item">
+                        <img src="images/posts-img-2.jpg" alt="" class="posts__item-img">
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Today</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">128</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">31</p>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">9-08-2016</p>
+                            <div class="posts__item-wrap">
+                                <div class="posts__item-container">
+                                    <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                    <p class="posts__item-text">67</p>
+                                </div>
+                                <div class="posts__item-container">
+                                    <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                    <p class="posts__item-text">22</p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="posts__item-content">
+                                <p class="posts__item-text">Image upload</p>
+                                <div class="posts__item-wrap">
+                                    <p class="posts__item-text">11-04-2016</p>
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="posts__item">
+                        <img src="images/posts-img-3.jpg" alt="" class="posts__item-img">
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Today</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">128</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">31</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">9-08-2016</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">67</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">22</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Image upload</p>
+                            <div class="posts__item-wrap">
+                                <p class="posts__item-text">11-04-2016</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="posts__item">
+                        <img src="images/posts-img-4.jpg" alt="" class="posts__item-img">
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Today</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">128</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">31</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">9-08-2016</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">67</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">22</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Image upload</p>
+                            <div class="posts__item-wrap">
+                                <p class="posts__item-text">11-04-2016</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="posts__item">
+                        <img src="images/posts-img-5.jpg" alt="" class="posts__item-img">
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Today</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">128</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">31</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">9-08-2016</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">67</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">22</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Image upload</p>
+                            <div class="posts__item-wrap">
+                                <p class="posts__item-text">11-04-2016</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="posts__item">
+                        <img src="images/posts-img-6.jpg" alt="" class="posts__item-img">
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Today</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">128</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">31</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">9-08-2016</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">67</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">22</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Image upload</p>
+                            <div class="posts__item-wrap">
+                                <p class="posts__item-text">11-04-2016</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="posts__item">
+                        <img src="images/posts-img-7.jpg" alt="" class="posts__item-img">
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Today</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">128</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">31</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">9-08-2016</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">67</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">22</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Image upload</p>
+                            <div class="posts__item-wrap">
+                                <p class="posts__item-text">11-04-2016</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="posts__item">
+                        <img src="images/posts-img-8.jpg" alt="" class="posts__item-img">
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Today</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">128</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">31</p>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">9-08-2016</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">67</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">22</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Image upload</p>
+                            <div class="posts__item-wrap">
+                                <p class="posts__item-text">11-04-2016</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="posts__item">
+                        <img src="images/posts-img-9.jpg" alt="" class="posts__item-img">
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Today</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">128</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">31</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">9-08-2016</p>
+                            <div class="posts__item-wrap">
+                            <div class="posts__item-container">
+                                <img src="images/like__icon.svg" alt="like" class="posts__item-icon">
+                                <p class="posts__item-text">67</p>
+                            </div>
+                            <div class="posts__item-container">
+                                <img src="images/comment__icon.svg" alt="comment" class="posts__item-icon">
+                                <p class="posts__item-text">22</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="posts__item-content">
+                            <p class="posts__item-text">Image upload</p>
+                            <div class="posts__item-wrap">
+                                <p class="posts__item-text">11-04-2016</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="posts__btn">Load more</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
