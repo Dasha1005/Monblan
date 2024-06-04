@@ -444,6 +444,10 @@ input::placeholder{
     .header__form-container{
         max-width: 180px;
     }
+
+    input{
+        max-width: 120px;
+    }
 }
 
 @media screen and (max-width: 640px){
