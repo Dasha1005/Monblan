@@ -436,6 +436,14 @@ input::placeholder{
     .posts {
         background-size: 8% auto;
     }
+
+    .header__form-container-1 {
+        margin-right: 0;
+    }
+
+    .header__form-container{
+        max-width: 180px;
+    }
 }
 
 @media screen and (max-width: 640px){
@@ -466,7 +474,7 @@ input::placeholder{
         font-size: 12px;
         line-height: 14px;
     }
-    
+
     .posts{
         background-image: none;
     }
