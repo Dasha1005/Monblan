@@ -24,6 +24,8 @@ flatpickr("#input-date-1, #input-date-2", {
     const rowsButton = document.querySelector('.posts__rows');
     rowsButton.classList.add('active');
   });
+
+  
   
    
   
